@@ -1,0 +1,22 @@
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+node_modules/
+dist/
+checkpoints/
+*.pt
+*.pth
+outputs/*
+!outputs/eval_relearn_gauge.py
+data/vector_index/
+.DS_Store
+Thumbs.db

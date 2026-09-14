@@ -1,0 +1,13 @@
+# pyproject.toml
+[project]
+name = "symemerge"
+version = "0.0.1"
+description = "Emergent counting symbol systems via embodied inscription"
+requires-python = ">=3.11"
+dependencies = ["torch", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["symemerge*"]
